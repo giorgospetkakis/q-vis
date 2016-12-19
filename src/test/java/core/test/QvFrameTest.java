@@ -7,7 +7,7 @@ import org.junit.Test;
 import core.QvFrameProperties;
 import core.QvFrame;
 
-public class HrdyFrameTest {
+public class QvFrameTest {
 	private QvFrame testFrame = new QvFrame();
 	
 	@Test
