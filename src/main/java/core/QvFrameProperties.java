@@ -6,7 +6,7 @@ import java.awt.Point;
 
 /**
  * Initialization properties for the graphics frame.
- * @author giorgos
+ * @author giorgospetkakis
  *
  */
 

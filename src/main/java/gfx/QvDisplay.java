@@ -7,7 +7,7 @@ import com.jogamp.opengl.GLEventListener;
 import com.jogamp.opengl.glu.GLU;
 /**
  * GLEventListener class that is responsible for drawing to the canvas.
- * @author giorgos
+ * @author giorgospetkakis
  *
  */
 

@@ -14,7 +14,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  * The user control frame.
- * @author giorgos
+ * @author giorgospetkakis
  *
  */
 

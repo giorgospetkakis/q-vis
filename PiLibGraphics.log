@@ -271,3 +271,9 @@
 2016-12-19 18:34:49,800 [core.QvFrame] (QvFrame.java:65) INFO  - Initialized HrdyFrame with title hrdy display and size 600, 600 at location java.awt.Point[x=0,y=0]
 2016-12-19 18:34:53,220 [core.QvFrame] (QvFrame.java:41) INFO  - Initialized OpenGL Capabilities: Bit-Depth 8
 2016-12-19 18:34:53,240 [core.QvFrame] (QvFrame.java:65) INFO  - Initialized HrdyFrame with title hrdy display and size 600, 600 at location java.awt.Point[x=0,y=0]
+2016-12-19 18:59:31,916 [core.QvFrame] (ControlFrame.java:69) INFO  - Initialized 1 ControlFrame components: displayframebutton 
+2016-12-19 18:59:31,978 [core.QvFrame] (ControlFrame.java:48) INFO  - Initialized ControlFrame with title hrdy control and size 350, 400 at location java.awt.Point[x=0,y=0]
+2016-12-19 18:59:35,555 [core.QvFrame] (QvFrame.java:41) INFO  - Initialized OpenGL Capabilities: Bit-Depth 8
+2016-12-19 18:59:35,574 [core.QvFrame] (QvFrame.java:65) INFO  - Initialized HrdyFrame with title hrdy display and size 600, 600 at location java.awt.Point[x=0,y=0]
+2016-12-19 18:59:38,900 [core.QvFrame] (QvFrame.java:41) INFO  - Initialized OpenGL Capabilities: Bit-Depth 8
+2016-12-19 18:59:38,920 [core.QvFrame] (QvFrame.java:65) INFO  - Initialized HrdyFrame with title hrdy display and size 600, 600 at location java.awt.Point[x=0,y=0]

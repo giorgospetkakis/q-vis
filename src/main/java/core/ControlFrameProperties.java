@@ -3,7 +3,7 @@ package core;
 import java.awt.Point;
 /**
  * Initialization properties for the user control frame.
- * @author giorgos
+ * @author giorgospetkakis
  *
  */
 

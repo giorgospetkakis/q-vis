@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 
 /**
  * The graphics display frame.
- * @author giorgos
+ * @author giorgospetkakis
  *
  */
 
