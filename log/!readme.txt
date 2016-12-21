@@ -1,0 +1,1 @@
+Preset folder for logging

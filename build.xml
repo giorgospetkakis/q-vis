@@ -1,7 +1,7 @@
 <!--
 	Standard Insurance Co build script
 -->
-<project name="Qvis" default="dist">
+<project name="q-vis" default="dist">
 
 	<!-- specify properties in build.properties -->
 	<property file="build.properties" />
