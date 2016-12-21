@@ -5,6 +5,7 @@
 .mtj.tmp/
 
 # Package Files #
+*.zip
 *.jar
 *.war
 *.ear
@@ -17,4 +18,5 @@ generated/**
 
 .project
 .classpath
-*.log
+.checkstyle
+PiLibGraphics.log
