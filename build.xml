@@ -1,7 +1,7 @@
 <!--
 	Standard Insurance Co build script
 -->
-<project name="HRDY" default="dist">
+<project name="Qvis" default="dist">
 
 	<!-- specify properties in build.properties -->
 	<property file="build.properties" />
