@@ -1,4 +1,4 @@
-package gfx;
+package gfx.util;
 
 import com.jogamp.opengl.DebugGL2;
 import com.jogamp.opengl.GL2;

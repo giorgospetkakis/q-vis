@@ -1,4 +1,4 @@
-package gfx;
+package gfx.noise;
 
 /*
 import com.jogamp.opengl.GL;
@@ -44,10 +44,7 @@ public class Noise {
   private static final double G2 = (3.0 - Math.sqrt(3.0)) / 6.0;
 
   // This method is a *lot* faster than using (int)Math.floor(x)
-  private static int fastfloor(double x) {
-    int xi = (int) x;
-    return x < xi ? xi - 1 : xi;
-  }
+
 
   private static double dot(Grad g, double x, double y) {
     return g.x * x + g.y * y;

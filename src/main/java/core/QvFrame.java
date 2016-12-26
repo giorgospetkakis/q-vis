@@ -3,7 +3,7 @@ package core;
 import com.jogamp.opengl.GLCapabilities;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.util.Animator;
-import gfx.QvDisplay;
+import gfx.util.QvDisplay;
 import org.apache.log4j.Logger;
 
 import javax.swing.JFrame;
