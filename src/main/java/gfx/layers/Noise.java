@@ -1,11 +1,18 @@
-package gfx.noise;
+package gfx.layers;
+
+import gfx.geometry.Point;
 
 /*
 import com.jogamp.opengl.GL;
 import com.jogamp.opengl.GL2;
 */
 
-public class Noise {
+public class Noise extends Layer{
+
+  public Noise(int width, int height, Point anchor) {
+    super(width, height, anchor);
+    // TODO Auto-generated constructor stub
+  }
 
   /*
   private static Grad grad3[] =
