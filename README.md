@@ -28,3 +28,4 @@ Apart from their individual alpha channels, layers will have basic transfer mode
 ***
 
 ###### **UPDATE 12/28/2016:** Completed prototype.
+###### **UPDATE 1/3/2016:** Refactored prototype into initial build.
