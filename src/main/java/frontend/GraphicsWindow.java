@@ -5,7 +5,9 @@ import com.jogamp.opengl.GLCapabilities;
 import com.jogamp.opengl.GLProfile;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.util.Animator;
-import display.GraphicsListener;
+
+import graphics.GraphicsListener;
+
 import org.apache.log4j.Logger;
 
 import java.awt.Point;

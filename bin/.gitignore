@@ -1,5 +1,8 @@
-/core/
-/gfx/
-/sound/
-/geometry/
+/backend/
+/display/
+/effects/
+/frontend/
+/layers/
+/tmodes/
+/util/
 /graphics/

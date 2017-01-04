@@ -1,6 +1,7 @@
-package display;
+package graphics;
 
 import com.jogamp.opengl.DebugGL2;
+import com.jogamp.opengl.GL;
 import com.jogamp.opengl.GL2;
 import com.jogamp.opengl.GLAutoDrawable;
 import com.jogamp.opengl.GLEventListener;
@@ -43,6 +44,10 @@ public class GraphicsListener implements GLEventListener {
    */
   private int maxY;
   
+  private Frame[] frames;
+  
+  private int currFrame;
+  
   /**
    * Empty GraphicsListener constructor. All bounds are set to 0 by default.
    */
@@ -63,6 +68,15 @@ public class GraphicsListener implements GLEventListener {
     this.minY = minY;
     this.maxX = maxX;
     this.maxY = maxY;
+    
+    Color[][] col = new Color[maxX][maxY];
+    for (int i = 0; i < maxX; i++) {
+      for (int j = 0; j < maxY; j++) {
+        col[i][j] = new Color(1, 0, 0.5);
+      }
+    }
+    
+    frames = new Frame[] {new Frame(col)};
   }
 
   /**
@@ -83,12 +97,25 @@ public class GraphicsListener implements GLEventListener {
   @Override
   public void display(GLAutoDrawable arg0) {
     gl.glClear(GL2.GL_COLOR_BUFFER_BIT);
-
+    
+    gl.glBegin(GL.GL_POINTS);
+    for (int x = minX; x < maxX; x++) {
+      for (int y = minY; y < maxY; y++) {
+        Color col = frames[currFrame++].pixels[x][y];
+        gl.glColor3d(col.red, col.green, col.blue);
+        gl.glVertex2i(x, y);
+      }
+    }
+    gl.glEnd();
+    
+    if (currFrame >= frames.length) {
+      currFrame = 0;
+    }
   }
 
   @Override
   public void dispose(GLAutoDrawable arg0) {
-    // TODO Auto-generated method stub
+
 
   }
 
@@ -105,7 +132,6 @@ public class GraphicsListener implements GLEventListener {
 
   @Override
   public void reshape(GLAutoDrawable arg0, int arg1, int arg2, int arg3, int arg4) {
-    // TODO Auto-generated method stub
 
   }
 }

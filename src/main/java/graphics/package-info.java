@@ -5,4 +5,4 @@
  * @author giorgospetkakis
  *
  */
-package display;
+package graphics;
